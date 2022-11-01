@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+            <title>Slow Query in MondoDB</title>
+            <style type='text/css'>
+                a {color: #3FA037;}
+                body, #header h1, #header h2, p {margin: 0; padding: 0;}
+                #main {border: 1px solid #E8E7D5;}
+                img {display: block;}
+                #top-message p, #bottom p {color: #3F3E42; font-size: 12px; font-family: Arial, Helvetica, sans-serif; }
+                #header h1 {color: #ffffff !important; font-family: 'Lucida Grande', sans-serif; font-size: 24px; margin-bottom: 0!important; padding-bottom: 0; }
+                #header p {color: #ffffff !important; font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif; font-size: 12px;  }
+                h5 {margin: 0 0 0.8em 0;}
+                h5 {font-size: 18px; color: #3F3E42 !important; font-family: Arial, Helvetica, sans-serif; }
+                p {font-size: 12px; color: #3F3E42 !important; font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif; line-height: 1.5;}
+            </style>
+    </head>
+    <body>
+    <table width='100%%' cellpadding='0' cellspacing='0' bgcolor='C1BEBC'>
+        <tr>
+        <table id='top-message' cellpadding='20' cellspacing='0' width='600' align='center'>
+            <br>
+            <table id='main' width='600' align='center' cellpadding='0' cellspacing='15' bgcolor='E8E7D5'>
+                <tr>
+                    <td>
+                        <table id='header' cellpadding='10' cellspacing='0' align='center' bgcolor='3F3E42'>
+                            <tr>
+                                <td width='570' align='center'  bgcolor='#3FA037'><h1>Slow Query in MondoDB OP "%s" </h1></td>
+                            </tr>
+                            <tr>
+                                <td width='570' align='right' bgcolor='#3FA037'><p>%s</p></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table id='content-3' cellpadding='0' cellspacing='0' align='center'>
+                            <tr>
+                                <td width='15'></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table id='content-4' cellpadding='0' cellspacing='0' align='center'>
+                            <tr>
+                                <td valign='top'>
+                                    <h5>The automatic script will notify all the transactions which are taken more than 10 minutes </h5>
+                                    <p><b>Command:</b> %s</p>
+                                    <br>
+                                    <p><b>Collection:</b> %s</p>
+                                    <br>
+                                    <p><b>Host Response:</b> %s</p>
+                                    <br>
+                                    <p><b>Host Request:</b> %s</p>
+                                    <br>
+                                    <p><b>IP Request:</b> %s</p>
+                                    <br>
+                                    <p><b>User and DB:</b> %s</p>
+                                    <br>
+                                    <p><b>Query:</b> %s</p>
+                                </td>
+                                <td width='15'></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            </td></tr>
+        </table><!-- wrapper -->
+        </tr>
+    </table>
+    </body>
+</html>
