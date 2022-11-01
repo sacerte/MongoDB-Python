@@ -1,0 +1,15 @@
+{
+  "host" : "your-host",
+  "port" : "port",
+  "user" : "user",
+  "password" : "pass",
+  "db_login" : "db",
+  "msg_from" : "email from",
+  "msg_password" : "email password",
+  "msg_to" : "list to send email",
+  "msg_subject_kill" : "Slow Query wich will be killed on Mongo",
+  "msg_subject_slow" : "Slow Query in Mongo",
+  "smtp": "smtp",
+  "port_smtp" : port smtp,
+  "timeout_sec" : 600
+}
