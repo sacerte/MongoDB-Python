@@ -5,7 +5,7 @@ from datetime import datetime
 import sys, json
 
 # Conexión a la base de datos de MongoDB
-client = MongoClient("mongodb+srv://ymeshir:bxLMwFBJcGKGkSnG@cluster0.y16yvqn.mongodb.net/")
+client = MongoClient("mongodb+srv://username:passG@host/")
 db = client['nomenclator']
 
 with open('schemas/MydbCsfmsbes01_MongoDBSchema.json', 'r') as file:
