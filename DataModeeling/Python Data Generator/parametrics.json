@@ -1,0 +1,14 @@
+{
+    "cant_documents": 20,
+    "client": "mongodb+srv://ymeshir:bxLMwFBJcGKGkSnG@cluster0.y16yvqn.mongodb.net/",
+    "db": "prueba", 
+    "pathSchemas": "Python Validatos Schema/schemas",
+    "references" : [
+        {
+            "collection_name": "posts", "ref_filed": "user_id", "collect_from_reference": "users"
+        }, 
+        {
+            "collection_name": "pedidos", "ref_filed": "user_id", "collect_from_reference": "users"
+        }
+    ] 
+}

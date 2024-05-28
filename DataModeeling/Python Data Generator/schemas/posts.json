@@ -1,0 +1,19 @@
+{
+    "bsonType": "object",
+    "required": ["title", "content", "user_id"],
+    "properties": {
+      "title": {
+        "bsonType": "string",
+        "description": "must be a string and is required"
+      },
+      "content": {
+        "bsonType": "string",
+        "description": "must be a string and is required"
+      },
+      "user_id": {
+        "bsonType": "objectId",
+        "description": "must be an ObjectId and is required"
+      }
+    }
+  }
+  
