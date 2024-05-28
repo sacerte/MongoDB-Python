@@ -15,7 +15,7 @@ def read_schemas_from_directory(directory_path):
     return schemas
 
 # Conectar a MongoDB
-client = MongoClient('mongodb+srv://ymeshir:bxLMwFBJcGKGkSnG@cluster0.y16yvqn.mongodb.net/')
+client = MongoClient('mongodb+srv://user:pass@cluster/')
 db = client['nomenclator']
 
 # Inicializar Faker
