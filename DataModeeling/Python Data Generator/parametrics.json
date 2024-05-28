@@ -1,6 +1,6 @@
 {
     "cant_documents": 20,
-    "client": "mongodb+srv://ymeshir:bxLMwFBJcGKGkSnG@cluster0.y16yvqn.mongodb.net/",
+    "client": "mongodb+srv://user:pass@cluster/",
     "db": "prueba", 
     "pathSchemas": "Python Validatos Schema/schemas",
     "references" : [
